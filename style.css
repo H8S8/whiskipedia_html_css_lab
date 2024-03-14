@@ -179,3 +179,12 @@ footer ul li{
     display: inline;
     padding: 5px;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 900px){
+
+    #newsletter_section{
+        grid-template-columns: 1fr;
+    }
+}
