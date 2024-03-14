@@ -9,9 +9,16 @@ header{
 
 header>div{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    width: 40%;
+    width: 600px;;
+}
+
+header>nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
 }
 
 /* MAIN */
@@ -22,14 +29,35 @@ main{
     margin-bottom: 40px;
 }
 
+main>div{
+    margin: 5px;
+}
+
+/* NAVBAR */
+
 main>nav{
     display: flex;
     justify-content: space-between;
 }
 
-main>div{
-    margin: 5px;
+main>nav>div{
+    display: flex;
+    justify-content: space-between;
 }
+
+main>nav>div>a{
+    text-decoration: none;
+}
+
+#main_nav_left{
+    width: 115px;
+}
+
+#main_nav_right{
+    width: 300px;
+}
+
+/* WELCOME MESSAGE */
 
 #welcome_message{
     text-align: center;
@@ -136,3 +164,18 @@ main h3{
     background-color: rgb(236, 236, 236);
 }
 
+/* FOOTER */
+
+footer{
+    width : 95%;
+    margin : auto;
+}
+
+footer ul{
+    padding-left: 0px;
+}
+
+footer ul li{
+    display: inline;
+    padding: 5px;
+}
