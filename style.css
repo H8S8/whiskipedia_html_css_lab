@@ -1,0 +1,138 @@
+/* HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+/* MAIN */
+main{
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+main>nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+main>div{
+    margin: 5px;
+}
+
+#welcome_message{
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+    border: 1px solid lightgrey;
+}
+
+/* 'NEWSLETTER' SECTION */
+
+#newsletter_section{
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+    gap: 5px;
+}
+
+#newsletter_section>section{
+    padding: 10px;
+}
+
+main h3{
+    margin-top : 0px;
+    padding : 5px;
+}
+
+#newsletter_section__left{
+    background-color: rgb(223, 255, 223);
+    border: 1px solid palegreen;
+}
+
+#newsletter_section__right{
+    background-color: rgb(205, 239, 255);
+    border: 1px solid rgb(158, 224, 255);
+}
+
+#newsletter_section__left h3{
+    background-color: palegreen;
+    border: 1px solid lightgrey;
+}
+
+#newsletter_section__right h3{
+    background-color: rgb(158, 224, 255);
+    border: 1px solid lightgrey;
+}
+
+/* FEATURED PICTURE */
+
+#featured_picture{
+    background-color: rgb(240, 205, 255);
+    border: 1px solid rgb(229, 158, 255);
+    padding: 10px;
+}
+
+#featured_picture h3{
+    background-color: rgb(229, 158, 255);
+    border: 1px solid lightgrey; 
+}
+
+/* ADDITIONAL LINKS */
+
+#additional_links{
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+
+#additional_links h3{
+    background-color: lightgrey;
+    border: 1px solid lightgrey;
+}
+
+#sister_projects>ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sister_project{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 250px;
+}
+
+.sister_project>img{
+    width: 30%;
+}
+
+.sister_project>div{
+    width: 70%;
+    padding: 10px;
+}
+
+#languages ul{
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0px;
+}
+
+#languages>ul>li>ul>li{
+    display: inline;
+    padding: 5px;
+}
+
+#languages h5{
+    background-color: rgb(236, 236, 236);
+}
+
